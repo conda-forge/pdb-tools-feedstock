@@ -1,5 +1,5 @@
 {% set name = "pdb-tools" %}
-{% set version = "2.6.0" %}
+{% set version = "2.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8d449cfb7949a5e55dac522185b20ce957da3a0d1d7eded2c81d2ad92a3d3b70
+  sha256: 0e1b235cb238652529afe8e157d7cef90d9235288f50806c37ee9f658ca1896b
 
 build:
   entry_points:
