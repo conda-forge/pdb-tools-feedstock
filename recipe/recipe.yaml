@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pdb-tools
-  version: "2.7.0"
+  version: "2.7.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: a79bc2747de65dc0ef1866e05d7ab4a649e0510f87c919e3a9aed5a3e17713fd
+  sha256: 0226cfd019ab44311a349478a2b64c7b477e59bd313075ad84ce8f4f029f3695
 
 build:
   number: 0
